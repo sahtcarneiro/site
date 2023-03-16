@@ -3,8 +3,6 @@ let menuBtn = document.querySelector('.header #menu');
 let navBar = document.querySelector('.header .navbar'); 
 let btnUp = document.querySelector('.moveTop');
 
-
-
 menuBtn.onclick = ()=>{
     menuBtn.classList.toggle("fa-times");
     navBar.classList.toggle("show");
@@ -25,8 +23,6 @@ window.onload = ()=>{
     menuBtn.classList.remove("fa-times");
     navBar.classList.remove("show");
 }; 
-
-// Swiper code 
 
 var swiper = new Swiper(".image-slider", {
     effect: "coverflow",

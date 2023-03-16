@@ -1,14 +1,11 @@
-/* green vue = #4EBA88*/
-/* Start global Rules  */
 
-/* Start Variables  */
 :root {
   --black:#272D3B; 
   --red:#4EBA88;
   --coral:#273849;
   --gradient:linear-gradient(90deg, var(--red), var(--coral)) ;
 }
-/* End Variables  */
+
 
 * {
 
@@ -39,9 +36,7 @@ body {
 
 }
 
-/* End global Rules  */
 
-/* custom components elements  starts  */
  section {
   padding:3rem 9%;
  }
@@ -116,13 +111,6 @@ body {
 
 
 
-/* custom components elements  ends  */
-
-
-
-
- /* Starts header style */
-
  .header {
     display: flex;
     align-items: center;
@@ -158,9 +146,7 @@ body {
     transform:rotate(180deg);
   
   }
-   /* Ends header style */
-
-   /* starts home style */
+   
  .home {
     min-height:100vh;
     background:url(../images/home-bg.jpg)no-repeat;
@@ -186,7 +172,7 @@ body {
  }
 
 
-/* Swiper Style  */
+
 .home .swiper {
   width: 100%;
   padding-top: 5rem;
@@ -206,10 +192,6 @@ body {
   height: 100%;
 }
  
-   /* Ends home style */
-
-
-   /* Starts  Features style */
 
 .features .box-container .box {
   margin:1rem;
@@ -242,9 +224,7 @@ body {
     color:#666;
     padding:1rem;
 }   
-   /* Ends Features style */
 
-   /* Starts About style */
  .about .box-container .image {
     flex:1 1 40rem; 
  }  
@@ -282,9 +262,7 @@ body {
  .about .box-container .content .share a:last-child {
     margin-left: 2rem;
  }
-   /* Ends About style */
 
-   /* Starts usage style */
 
 .usage .swiper {
   width: 100%;
@@ -330,10 +308,7 @@ align-items: center;
   font-size:1.5rem; 
   color:#666;;
 }
-   /* Ends usage style */
 
-
-   /* Starts  review style */
  .review  .box-container .box {
      flex:1 1 33rem;
      text-align:center;
@@ -365,9 +340,7 @@ align-items: center;
   color:var(--red);
   padding:1rem .1rem;
  }  
-   /* Ends review style */
 
-   /* Starts  pricing style */
    .pricing .box-container .box {
     flex:1 1 33rem;
     text-align: center;
@@ -403,9 +376,7 @@ align-items: center;
   .pricing .box-container .box .btn {
     margin-top: 2rem;
   }
-   /* Ends pricing style */
 
-   /* Starts contact style */
 .contact {
     background:linear-gradient(#fff 50%,var(--black) 50.1%)
 }
@@ -447,10 +418,7 @@ align-items: center;
  color:var(--red);
 }
 
-/* Ends contact style */
 
-
-/* Starts footer style */
 .footer {
   text-align:center;
   background:var(--black); 
@@ -470,8 +438,9 @@ align-items: center;
   color:#fff;
   background:var(--gradient);
 }
-/* Ends footer style */
+
 .footer .credit {
+  text-transform: none;
   color:#eee;
   padding:2.5rem 1rem;
   font-weight: normal;
