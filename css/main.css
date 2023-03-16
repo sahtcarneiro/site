@@ -6,6 +6,9 @@
   --gradient:linear-gradient(90deg, var(--red), var(--coral)) ;
 }
 
+.siteicon {
+  border-radius: 100%;
+}
 
 * {
 
@@ -450,50 +453,6 @@ align-items: center;
   color:var(--red);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Start Media Queries Style */
-
-/* Screen 1 */
 @media (max-width: 991px) {
 
     html {
